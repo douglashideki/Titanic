@@ -18,3 +18,17 @@ O histórico dos resultados é mostrado abaixo e pode ser obtido no Kaggle:
 - Foram criados **três modelos** utilizando os algoritmos **'DecisionTreeClassifier', 'KNN' e 'LogisticRegression'.**
 - Os modelos foram **avaliados** utilizando a **acurácia e a matriz de confusão.**
 - **O score retornado pelo Kaggle foi: 0.76076** (utilizando o modelo de Regressão Logística).
+
+
+---
+## [Parte 2:](https://github.com/douglashideki/Titanic/blob/main/Titanic%20-%20Parte%202/Titanic%20-%20Parte%202.ipynb)
+- Na segunda parte do projeto, foi realizado uma **análise exploratória mais detalhada** em cada coluna do conjunto de dados.
+- Inicialmente foi **retirado o título pertencente a cada passageiro** e então codificado com o OneHotEncoder.
+- Para a coluna 'Age', foi criado uma **classificação para as idades**, sendo elas, criança, adulto e idoso e então codificado em numérico. Para realizar esta classificação, **foi criado uma função** e utilizado o método **.apply()** junto com o **lambda**.
+- Foi criada uma **nova coluna "Family"** que é a **soma dos valores das colunas "SibSp" e "Parch"**
+- A **coluna "Fare"** foi classificada em **categorias, gratuito, valor alto, médio e baixo.** Cada cada categoria foi então codificada para numérica e armazenada em uma **nova coluna chamada "Classe_Fare"**.
+- Assim como na parte 1, foram criados **três modelos** utilizando os algoritmos **'DecisionTreeClassifier', 'KNN' e 'LogisticRegression'.**
+- Os modelos foram **avaliados** utilizando a **acurácia e a matriz de confusão.**
+- **O score retornado pelo Kaggle foi: 0.77033** (utilizando o modelo de Regressão Logística).
+
+
