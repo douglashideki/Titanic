@@ -1,9 +1,11 @@
 # Titanic
 Repositório com os arquivos da **[competição do Kaggle sobre o famoso conjunto de dados do Titanic.](https://www.kaggle.com/c/titanic)**
 
-O histórico dos resultados é mostrado abaixo e pode ser obtido no Kaggle:
+- Objetivo do projeto é usar o aprendizado de máquina para **criar um modelo que preveja quais passageiros sobreviveram ao naufrágio do Titanic**.
 
+- O histórico dos resultados das previsões é mostrado abaixo, bem como um resumo das técnicas e ferramentas que foram utilizadas para desenvolver o projeto:
 
+<img src = 'https://github.com/douglashideki/Titanic/blob/main/img/resultados.png'>
 
 ---
 ## [Parte 1: Primeiro modelo](https://github.com/douglashideki/Titanic/blob/main/Titanic%20-%20Parte%201/Titanic%20-%20Parte%201.ipynb)
