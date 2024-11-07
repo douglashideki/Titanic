@@ -3,10 +3,7 @@ Repositório com os arquivos da **[competição do Kaggle sobre o famoso conjunt
 
 O histórico dos resultados é mostrado abaixo e pode ser obtido no Kaggle:
 
-<img src='[https://github.com/douglashideki/Titanic/blob/main/img/resultados_titanic.png](https://github.com/douglashideki/Titanic/blob/main/img/resultados_titanic.png)'/>
-
-
-
+<img src='https://github.com/douglashideki/Titanic/blob/main/img/resultados_titanic.png'/>
 
 ---
 ## [Parte 1: Primeiro modelo](https://github.com/douglashideki/Titanic/blob/main/Titanic%20-%20Parte%201/Titanic%20-%20Parte%201.ipynb)
