@@ -16,7 +16,7 @@ Repositório com os arquivos da **[competição do Kaggle sobre o famoso conjunt
   - Também foram feitas **pesquisas na internet** para preencher alguns **valores nulos**.  
 - **Colunas com elevada cardinalidade** ou muitos **valores nulos** foram removidas.  
 - **Transformação das colunas categóricas** ('**Sex**' e '**Embarked**') em **numéricas**.  
-  - Foram utilizadas as técnicas "**get_dummies()**" e **OneHotEncoder**, que criam uma nova **coluna** para cada um dos **rótulos** da coluna original.  
+  - Foram utilizadas as técnicas "**get_dummies()**" e **OneHotEncoder**, que cria uma nova **coluna** para cada um dos **rótulos** da coluna original.  
 - Foram criados três **modelos** utilizando os algoritmos '**DecisionTreeClassifier**', '**KNN**' e '**LogisticRegression**'.  
 - Os modelos foram avaliados utilizando a **acurácia** e a **matriz de confusão**.  
 - O **score** retornado pelo **Kaggle** foi: **0.76076** (utilizando o modelo de **Regressão Logística**).
@@ -27,16 +27,17 @@ Repositório com os arquivos da **[competição do Kaggle sobre o famoso conjunt
 - Para a coluna '**Age**', foi criada uma **classificação** para as idades, sendo elas, **criança**, **adulto** e **idoso** e então codificado em **numérico**.
   - Para realizar esta classificação, foi criada uma **função** e utilizado o método **.apply()** junto com o **lambda**.  
 - Foi criada uma nova coluna "**Family**" que é a soma dos valores das colunas "**SibSp**" e "**Parch**".  
-- A coluna "**Fare**" foi classificada em categorias, **gratuito**, **valor alto**, **médio** e **baixo**. Cada categoria foi então codificada para **numérica** e armazenada em uma nova coluna chamada "**Classe_Fare**".  
+- A coluna "**Fare**" foi classificada em categorias, **gratuito**, **valor alto**, **médio** e **baixo**.
+  - Cada categoria foi então codificada para **numérica** e armazenada em uma nova coluna chamada "**Classe_Fare**".  
 - Assim como na parte 1, foram criados três **modelos** utilizando os algoritmos '**DecisionTreeClassifier**', '**KNN**' e '**LogisticRegression**'.  
 - O **score** retornado pelo **Kaggle** foi: **0.77033** (utilizando o modelo de **Regressão Logística**).
 
 ## [Parte 3: Modelo Final](https://github.com/douglashideki/Titanic/blob/main/Titanic%20-%20Parte%203/Titanic%20-%20Parte%203.ipynb)
 
-- Na **terceira parte** do projeto, além do **LogisticRegression**, utilizamos outros **modelos** de Machine Learning mais **complexos**, como o **RandomForest**, **MLPClassifier** e **SVC**.
+- Na **terceira parte** do projeto, além do **LogisticRegression**, foi utilizado outros **modelos** de Machine Learning mais **complexos**, como o **RandomForest**, **MLPClassifier** e **SVC**.
 - Foi utilizado a técnica de **validação cruzada** com a finalidade de **avaliar** o desempenho dos modelos de maneira **mais precisa e robusta**.
 - Também foi feito a **seleção de features** para escolher as **variáveis** ou atributos **mais relevantes** para o modelo e descartar aquelas que são **irrelevantes, redundantes ou ruidosas**.
   - Etapa importante para melhorar o **desempenho** e **performance** do modelo.
-  - Na **seleção de features**, foi identificado que as colunas '**PassengerId**', '**Survived**', '**Embarked_Q**', '**Title_Others**' e '**Family**' tiveram **baixa pontuação** e poderiam ser removidas.
+  - Na **seleção de features**, foi identificado que as colunas '**Embarked_Q**', '**Title_Others**' e '**Family**' tiveram **baixa pontuação** e poderiam ser removidas.
 - Por fim, foi realizado o **GridSearchCV** para **ajustar os hiperparâmetros** dos modelos, realizando uma busca sistemática para encontrar a combinação ideal de parâmetros que **maximize o desempenho** do modelo e **previna overfitting**.
 - O **score** retornado pelo **Kaggle** foi: **0.78468** (utilizando o modelo **MLPClassifier**).
